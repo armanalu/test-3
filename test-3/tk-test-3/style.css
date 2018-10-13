@@ -1,0 +1,51 @@
+/* write your CSS here */
+
+a > img{
+    max-width: 80px;
+    padding-right: 16px; 
+}
+.article {
+ display: flex;
+ flex-direction: column;
+ margin: 0% 10%;
+ padding: 16px;
+ 
+}
+.book{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border: 1px solid lightgray;
+    margin: 16px 0px;
+    
+}
+tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-img{
+    padding: 16px;
+  
+}
+span{
+    display: flex;
+}
+.button{
+    display: flex;
+    padding: 16px;
+}
+.price{
+    display: flex;
+    padding: 16px 32px;
+    /* margin: 0px; */
+}
+
+.quantity{
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    border: 1px solid lightgray;
+    margin: 0px;
+}
